@@ -1,0 +1,55 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!-- ====================================================== -->
+    <!--                         POM 版本                       -->
+    <!-- ====================================================== -->
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- ====================================================== -->
+    <!--                         POM 类型                       -->
+    <!-- ====================================================== -->
+    <packaging>jar</packaging>
+
+    <!-- ====================================================== -->
+    <!--                          父 POM                        -->
+    <!-- ====================================================== -->
+    <parent>
+        <groupId>com.tzg</groupId>
+        <artifactId>framework-core</artifactId>
+        <version>1.0.1</version>
+    </parent>
+
+    <!-- ====================================================== -->
+    <!--                         POM GAV                        -->
+    <!-- ====================================================== -->
+    <artifactId>component-batch</artifactId>
+
+    <!-- ====================================================== -->
+    <!--                       项目名和组织                      -->
+    <!-- ====================================================== -->
+    <url>http://www.tzg.cn</url>
+    <name>${project.artifactId}</name>
+    <description>跑批组件支持</description>
+
+    <!-- ====================================================== -->
+    <!--                        开发者介绍                       -->
+    <!-- ====================================================== -->
+    <developers>
+        <developer>
+            <name>曾林</name>
+            <email>zengl@tzg.cn</email>
+            <organization>杭州铜米金融服务有限公司</organization>
+        </developer>
+    </developers>
+
+    <!-- ====================================================== -->
+    <!--                   组件依赖（第三方依赖）                  -->
+    <!-- ====================================================== -->
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.batch</groupId>
+            <artifactId>spring-batch-core</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
